@@ -21,6 +21,7 @@ return new class extends Migration
             $table->integer('price_per_month');
             $table->boolean('is_available');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

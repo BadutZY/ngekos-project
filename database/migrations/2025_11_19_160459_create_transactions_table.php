@@ -26,6 +26,7 @@ return new class extends Migration
             $table->string('total_amount')->nullable();
             $table->date('transaction_date')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
