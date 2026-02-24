@@ -48,8 +48,7 @@ class TransactionResource extends Resource
                         'paypal' => 'PayPal',
                         'ovo' => 'OVO',
                         'gopay' => 'GoPay',
-                        'dana' => 'Dana',
-                        'full_payment' => 'Full Payment',
+                        'dana' => 'Dana'
                     ])
                     ->required(),
                 Forms\Components\Select::make('payment_status')
